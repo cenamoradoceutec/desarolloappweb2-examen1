@@ -4,7 +4,7 @@ import ExpenseTable from '../components/ExpenseTable';
 import Alerts from '../components/Alerts';
 
 export default function Presupuesto() {
-  const { setPresupuesto, presupuesto, gastos } = useAppContext();
+  const { setPresupuesto } = useAppContext();
   const [monto, setMonto] = useState('');
 
   const handleSubmit = () => {
